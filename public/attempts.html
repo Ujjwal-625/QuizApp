@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Quiz Attempts</title>
+    <link rel="stylesheet" href="attempts.css">
+</head>
+<body>
+    <script>
+        function loadquestion(){
+            console.log("clicked");
+        }
+    </script>
+    <div class="container">
+        <h1>User Quiz Attempts</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attempt ID</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>8/10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>7/10</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="start-test" onclick="loadquestion()">Start Test</button>
+    </div>
+</body>
+</html>
